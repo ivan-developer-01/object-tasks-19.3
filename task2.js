@@ -5,3 +5,6 @@ function isInObject(key, obj) {
 }
 
 // Tests
+console.log(isInObject("name", { name: "John" })); // true
+console.log(isInObject("age", { name: "John" })); // false
+console.log(isInObject(5, [1, 2, 3, 4, 5])); // false
