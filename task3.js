@@ -5,3 +5,9 @@ function returnObjWithoutPrototype() {
 	obj.__proto__ = null;
 	return objh;
 }
+
+// Tests
+const newObj = returnObjWithoutPrototype();
+console.log(newObj); // {}
+console.log(newObj.__proto__); // undefined
+console.log(Object.getPrototypeOf(newObj)); // null
