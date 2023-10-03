@@ -3,7 +3,7 @@
 function returnObjWithoutPrototype() {
 	obj = new Object();
 	obj.__proto__ = null;
-	return objh;
+	return obj;
 }
 
 // Tests
