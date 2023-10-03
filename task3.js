@@ -1,1 +1,1 @@
-// Write a function that returns empty object but without the prototype.
+// Write a function that creates empty object but without the prototype.
