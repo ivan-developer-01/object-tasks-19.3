@@ -6,3 +6,14 @@ function logOwnValues(obj) {
 		}
 	}
 }
+
+// Tests
+const obj = { a: 1, b: 2, c: 3, d: 4 };
+logOwnValues(obj);
+
+const obj2 = [1, 2, 3, 4, "a", true];
+obj2.testValue = "test";
+logOwnValues(obj2);
+
+const emptyObj = {};
+logOwnValues(emptyObj);
