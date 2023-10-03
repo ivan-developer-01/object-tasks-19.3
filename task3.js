@@ -1,7 +1,7 @@
 // Write a function that creates empty object but without the prototype.
 
 function createObjWithoutPrototype() {
-	obj = new Object();
+	const obj = new Object();
 	obj.__proto__ = null;
 	return obj;
 }
