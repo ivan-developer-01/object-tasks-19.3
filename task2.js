@@ -3,3 +3,5 @@
 function isInObject(key, obj) {
 	return key in obj;
 }
+
+// Tests
