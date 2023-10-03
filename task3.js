@@ -1,0 +1,1 @@
+// Write a function that returns empty object but without the prototype.
